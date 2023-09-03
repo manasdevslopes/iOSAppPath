@@ -54,6 +54,10 @@
 		FD36B7F22A9A12AD00014D6A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		FD36B7F52A9A211000014D6A /* ClassVsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassVsStruct.swift; sourceTree = "<group>"; };
 		FD36B7F82A9A28A600014D6A /* GenericExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericExample1.swift; sourceTree = "<group>"; };
+		FDD9150C2AA4934C005500D1 /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FDD9150E2AA49AFF005500D1 /* MapCompactmapFlatMapSortFilterReduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MapCompactmapFlatMapSortFilterReduce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FDD915102AA4A7D4005500D1 /* ArraySets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ArraySets.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FDD915122AA4AE51005500D1 /* Optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Optionals.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +112,11 @@
 				FD36B7EF2A9A125E00014D6A /* 1APICalls */,
 				FD36B7F42A9A204B00014D6A /* 2ClassesStructs */,
 				FD36B7F72A9A288200014D6A /* 3Generics */,
-				FD1FCF302A90E0A1006706AF /* TestExamples */,
+				FDD9150B2AA4932E005500D1 /* 4Closures */,
+				FDD9150D2AA49AD6005500D1 /* 5MapCompactmapFlatMapSortFilterReduce */,
+				FDD9150F2AA4A7BA005500D1 /* 6ArraySets */,
+				FDD915112AA4AE39005500D1 /* 7Optionals */,
+				FD1FCF302A90E0A1006706AF /* 8TestExamples */,
 				FD1FCF082A90E051006706AF /* ContentView.swift */,
 				FD1FCF0A2A90E054006706AF /* Assets.xcassets */,
 				FD1FCF0C2A90E054006706AF /* Preview Content */,
@@ -142,12 +150,12 @@
 			path = iOSAppPracticeUITests;
 			sourceTree = "<group>";
 		};
-		FD1FCF302A90E0A1006706AF /* TestExamples */ = {
+		FD1FCF302A90E0A1006706AF /* 8TestExamples */ = {
 			isa = PBXGroup;
 			children = (
 				FD1FCF312A90E0BF006706AF /* TipCalculator.swift */,
 			);
-			path = TestExamples;
+			path = 8TestExamples;
 			sourceTree = "<group>";
 		};
 		FD36B7EF2A9A125E00014D6A /* 1APICalls */ = {
@@ -180,6 +188,38 @@
 				FD36B7F82A9A28A600014D6A /* GenericExample1.swift */,
 			);
 			path = 3Generics;
+			sourceTree = "<group>";
+		};
+		FDD9150B2AA4932E005500D1 /* 4Closures */ = {
+			isa = PBXGroup;
+			children = (
+				FDD9150C2AA4934C005500D1 /* Closures.playground */,
+			);
+			path = 4Closures;
+			sourceTree = "<group>";
+		};
+		FDD9150D2AA49AD6005500D1 /* 5MapCompactmapFlatMapSortFilterReduce */ = {
+			isa = PBXGroup;
+			children = (
+				FDD9150E2AA49AFF005500D1 /* MapCompactmapFlatMapSortFilterReduce.playground */,
+			);
+			path = 5MapCompactmapFlatMapSortFilterReduce;
+			sourceTree = "<group>";
+		};
+		FDD9150F2AA4A7BA005500D1 /* 6ArraySets */ = {
+			isa = PBXGroup;
+			children = (
+				FDD915102AA4A7D4005500D1 /* ArraySets.playground */,
+			);
+			path = 6ArraySets;
+			sourceTree = "<group>";
+		};
+		FDD915112AA4AE39005500D1 /* 7Optionals */ = {
+			isa = PBXGroup;
+			children = (
+				FDD915122AA4AE51005500D1 /* Optionals.playground */,
+			);
+			path = 7Optionals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
