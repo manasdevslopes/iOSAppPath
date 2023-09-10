@@ -1,4 +1,8 @@
 import UIKit
+// ( ) -> ( )
+// { $0 > $1 }
+// @escaping, non-escaping
+// trailing closure syntax - when closure is the last argument
 
 struct Student {
   let name: String

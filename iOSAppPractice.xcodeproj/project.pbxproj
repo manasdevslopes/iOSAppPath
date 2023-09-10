@@ -19,6 +19,7 @@
 		FD36B7F32A9A12AD00014D6A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD36B7F22A9A12AD00014D6A /* Profile.swift */; };
 		FD36B7F62A9A211000014D6A /* ClassVsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD36B7F52A9A211000014D6A /* ClassVsStruct.swift */; };
 		FD36B7F92A9A28A600014D6A /* GenericExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD36B7F82A9A28A600014D6A /* GenericExample1.swift */; };
+		FD42A60D2AADFADB008A3158 /* ARCRetainCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42A60C2AADFADB008A3158 /* ARCRetainCycle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,10 @@
 		FD36B7F22A9A12AD00014D6A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		FD36B7F52A9A211000014D6A /* ClassVsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassVsStruct.swift; sourceTree = "<group>"; };
 		FD36B7F82A9A28A600014D6A /* GenericExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericExample1.swift; sourceTree = "<group>"; };
+		FD42A6052AADDED0008A3158 /* Singletons.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Singletons.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FD42A6072AADE2C1008A3158 /* DependencyInjection.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DependencyInjection.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FD42A60C2AADFADB008A3158 /* ARCRetainCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCRetainCycle.swift; sourceTree = "<group>"; };
+		FD42A60E2AADFD5C008A3158 /* ARCRetainCycles.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ARCRetainCycles.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FDD9150C2AA4934C005500D1 /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FDD9150E2AA49AFF005500D1 /* MapCompactmapFlatMapSortFilterReduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MapCompactmapFlatMapSortFilterReduce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FDD915102AA4A7D4005500D1 /* ArraySets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ArraySets.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -117,6 +122,12 @@
 				FDD9150F2AA4A7BA005500D1 /* 6ArraySets */,
 				FDD915112AA4AE39005500D1 /* 7Optionals */,
 				FD1FCF302A90E0A1006706AF /* 8TestExamples */,
+				FD42A6042AADDC58008A3158 /* 9Singletons */,
+				FD42A6062AADDFE3008A3158 /* 10DependencyInjection */,
+				FD42A6082AADE669008A3158 /* 11DelegatesProtocols */,
+				FD42A6092AADE93A008A3158 /* 12ViewLifeCycle */,
+				FD42A60A2AADECB4008A3158 /* 13ConcurrencyThreading */,
+				FD42A60B2AADF1C8008A3158 /* 14ARCRetainCycle */,
 				FD1FCF082A90E051006706AF /* ContentView.swift */,
 				FD1FCF0A2A90E054006706AF /* Assets.xcassets */,
 				FD1FCF0C2A90E054006706AF /* Preview Content */,
@@ -188,6 +199,52 @@
 				FD36B7F82A9A28A600014D6A /* GenericExample1.swift */,
 			);
 			path = 3Generics;
+			sourceTree = "<group>";
+		};
+		FD42A6042AADDC58008A3158 /* 9Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				FD42A6052AADDED0008A3158 /* Singletons.playground */,
+			);
+			path = 9Singletons;
+			sourceTree = "<group>";
+		};
+		FD42A6062AADDFE3008A3158 /* 10DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				FD42A6072AADE2C1008A3158 /* DependencyInjection.playground */,
+			);
+			path = 10DependencyInjection;
+			sourceTree = "<group>";
+		};
+		FD42A6082AADE669008A3158 /* 11DelegatesProtocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 11DelegatesProtocols;
+			sourceTree = "<group>";
+		};
+		FD42A6092AADE93A008A3158 /* 12ViewLifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 12ViewLifeCycle;
+			sourceTree = "<group>";
+		};
+		FD42A60A2AADECB4008A3158 /* 13ConcurrencyThreading */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 13ConcurrencyThreading;
+			sourceTree = "<group>";
+		};
+		FD42A60B2AADF1C8008A3158 /* 14ARCRetainCycle */ = {
+			isa = PBXGroup;
+			children = (
+				FD42A60C2AADFADB008A3158 /* ARCRetainCycle.swift */,
+				FD42A60E2AADFD5C008A3158 /* ARCRetainCycles.playground */,
+			);
+			path = 14ARCRetainCycle;
 			sourceTree = "<group>";
 		};
 		FDD9150B2AA4932E005500D1 /* 4Closures */ = {
@@ -355,6 +412,7 @@
 				FD1FCF322A90E0BF006706AF /* TipCalculator.swift in Sources */,
 				FD36B7F32A9A12AD00014D6A /* Profile.swift in Sources */,
 				FD36B7F62A9A211000014D6A /* ClassVsStruct.swift in Sources */,
+				FD42A60D2AADFADB008A3158 /* ARCRetainCycle.swift in Sources */,
 				FD1FCF092A90E051006706AF /* ContentView.swift in Sources */,
 				FD36B7F92A9A28A600014D6A /* GenericExample1.swift in Sources */,
 				FD1FCF072A90E051006706AF /* iOSAppPracticeApp.swift in Sources */,
